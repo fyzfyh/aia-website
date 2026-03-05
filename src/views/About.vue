@@ -1,0 +1,121 @@
+<template>
+  <main>
+    <!-- Hero -->
+    <section class="bg-gradient-to-br from-primary-700 to-sky-500 text-white py-16">
+      <div class="page-container text-center">
+        <h1 class="text-3xl sm:text-4xl font-bold mb-3">关于我们</h1>
+        <p class="text-primary-100 text-lg max-w-xl mx-auto">
+          一个由热爱 AI 的学生共同建立的开放社区
+        </p>
+      </div>
+    </section>
+
+    <!-- 社团简介 -->
+    <section class="py-14 bg-white">
+      <div class="page-container max-w-3xl">
+        <h2 class="section-title mb-6">社团简介</h2>
+        <div class="prose prose-slate max-w-none text-slate-600 leading-relaxed space-y-4">
+          <p>
+            香港中文大学（深圳）人工智能协会（CUHK(SZ) AI Association，简称 AIA）成立于 2022 年，
+            是一个由在校学生自发组建、致力于推动校园 AI 知识普及与学术交流的学生社团。
+          </p>
+          <p>
+            社团聚焦于人工智能、机器学习、计算机视觉、自然语言处理等前沿方向，通过举办技术工作坊、
+            学术讲座、竞赛组队及科研项目招募等多元活动，为有志于 AI 领域的同学提供学习、实践与连接的平台。
+          </p>
+          <p>
+            我们相信，AI 的未来属于每一个愿意探索的人。无论你是零基础的好奇者，还是已有研究经验的探索者，
+            AIA 都欢迎你的加入。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 使命与愿景 -->
+    <section class="py-14 bg-slate-50">
+      <div class="page-container">
+        <h2 class="section-title mb-8 text-center">使命与愿景</h2>
+        <div class="grid sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <div class="bg-white rounded-xl p-6 text-center border border-slate-100">
+            <div class="w-12 h-12 rounded-xl bg-primary-100 flex items-center justify-center mx-auto mb-4">
+              <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+              </svg>
+            </div>
+            <h3 class="font-semibold text-slate-800 mb-2">普及知识</h3>
+            <p class="text-sm text-slate-500">降低 AI 学习门槛，让更多同学接触并理解人工智能技术</p>
+          </div>
+
+          <div class="bg-white rounded-xl p-6 text-center border border-slate-100">
+            <div class="w-12 h-12 rounded-xl bg-primary-100 flex items-center justify-center mx-auto mb-4">
+              <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-semibold text-slate-800 mb-2">连接社区</h3>
+            <p class="text-sm text-slate-500">搭建同学、教授与业界之间的桥梁，构建活跃的 AI 学习社区</p>
+          </div>
+
+          <div class="bg-white rounded-xl p-6 text-center border border-slate-100">
+            <div class="w-12 h-12 rounded-xl bg-primary-100 flex items-center justify-center mx-auto mb-4">
+              <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+              </svg>
+            </div>
+            <h3 class="font-semibold text-slate-800 mb-2">驱动实践</h3>
+            <p class="text-sm text-slate-500">通过竞赛、科研与实习项目，将理论知识转化为真实的实践能力</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 如何加入 -->
+    <section class="py-14 bg-white">
+      <div class="page-container max-w-3xl">
+        <h2 class="section-title mb-6">如何加入</h2>
+        <div class="space-y-4">
+          <div class="flex gap-4 p-5 bg-slate-50 rounded-xl">
+            <div class="w-8 h-8 rounded-full bg-primary-600 text-white flex items-center justify-center text-sm font-bold shrink-0">1</div>
+            <div>
+              <h3 class="font-semibold text-slate-800 mb-1">关注我们的公众号</h3>
+              <p class="text-sm text-slate-500">微信搜索公众号「AIAssocCUHKSZ」，获取最新活动与招募信息</p>
+              <!-- TODO: 替换为真实公众号二维码图片 -->
+            </div>
+          </div>
+
+          <div class="flex gap-4 p-5 bg-slate-50 rounded-xl">
+            <div class="w-8 h-8 rounded-full bg-primary-600 text-white flex items-center justify-center text-sm font-bold shrink-0">2</div>
+            <div>
+              <h3 class="font-semibold text-slate-800 mb-1">参加迎新活动</h3>
+              <p class="text-sm text-slate-500">关注每学期开学初举办的迎新分享会，现场了解各部门并完成加入</p>
+            </div>
+          </div>
+
+          <div class="flex gap-4 p-5 bg-slate-50 rounded-xl">
+            <div class="w-8 h-8 rounded-full bg-primary-600 text-white flex items-center justify-center text-sm font-bold shrink-0">3</div>
+            <div>
+              <h3 class="font-semibold text-slate-800 mb-1">发送邮件联系我们</h3>
+              <p class="text-sm text-slate-500">
+                随时可以发邮件至
+                <!-- TODO: 替换为真实邮箱 -->
+                <a href="mailto:aiassoc@cuhksz.edu.cn" class="text-primary-600 hover:underline">aiassoc@cuhksz.edu.cn</a>
+                ，我们会尽快回复
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section class="py-14 bg-primary-50">
+      <div class="page-container text-center">
+        <h2 class="section-title mb-3">联系我们</h2>
+        <p class="text-slate-500 mb-6">有任何问题或合作意向，欢迎与我们联系</p>
+        <a href="mailto:aiassoc@cuhksz.edu.cn" class="btn-primary">
+          发送邮件
+        </a>
+      </div>
+    </section>
+  </main>
+</template>

@@ -1,0 +1,53 @@
+/* 引入中文字体 —— @import 必须在最前面 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-slate-800 bg-white;
+  }
+
+  #app {
+    @apply min-h-screen flex flex-col;
+  }
+}
+
+@layer components {
+  /* 通用按钮样式 */
+  .btn-primary {
+    @apply inline-flex items-center px-5 py-2.5 bg-primary-600 text-white font-medium rounded-lg
+           hover:bg-primary-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center px-5 py-2.5 border border-primary-600 text-primary-600 font-medium rounded-lg
+           hover:bg-primary-50 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+
+  /* 标签/徽章 */
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  /* 卡片通用样式 */
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-md transition-shadow duration-200;
+  }
+
+  /* 页面内容区容器 */
+  .page-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* 区块标题 */
+  .section-title {
+    @apply text-2xl sm:text-3xl font-bold text-slate-800;
+  }
+}

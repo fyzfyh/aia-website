@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "深度学习入门工作坊",
+    "date": "2026-03-15",
+    "endDate": "2026-03-15",
+    "location": "香港中文大学（深圳）教学楼 A101",
+    "category": "工作坊",
+    "status": "upcoming",
+    "cover": "",
+    "wxArticleUrl": "",
+    "description": "面向零基础同学的深度学习入门工作坊，涵盖神经网络基础原理、PyTorch 框架入门及手写数字识别实践案例，助你迈出 AI 学习第一步。",
+    "images": []
+  },
+  {
+    "id": 2,
+    "title": "2026 春季迎新分享会",
+    "date": "2026-03-08",
+    "endDate": "2026-03-08",
+    "location": "学生活动中心多功能厅",
+    "category": "社交",
+    "status": "upcoming",
+    "cover": "",
+    "wxArticleUrl": "",
+    "description": "欢迎新同学加入 AI 协会！活动包含社团介绍、各部门招新说明及互动破冰游戏，期待与你相遇。",
+    "images": []
+  },
+  {
+    "id": 3,
+    "title": "大语言模型前沿讲座",
+    "date": "2025-12-20",
+    "endDate": "2025-12-20",
+    "location": "图书馆报告厅",
+    "category": "讲座",
+    "status": "past",
+    "cover": "",
+    "wxArticleUrl": "",
+    "description": "邀请校内 NLP 方向研究生分享大语言模型最新进展，涵盖 RLHF、RAG 架构及 Agent 应用等热点话题。活动吸引超过 80 位同学参与。",
+    "images": []
+  },
+  {
+    "id": 4,
+    "title": "AI 黑客松 2025",
+    "date": "2025-11-16",
+    "endDate": "2025-11-17",
+    "location": "理工楼创客空间",
+    "category": "竞赛",
+    "status": "past",
+    "cover": "",
+    "wxArticleUrl": "",
+    "description": "48 小时不间断编程马拉松，参赛团队围绕「AI + 可持续发展」主题进行创作，共产出 12 个创新项目，最终评出金银铜奖各一。",
+    "images": []
+  },
+  {
+    "id": 5,
+    "title": "计算机视觉实践营",
+    "date": "2025-10-25",
+    "endDate": "2025-10-26",
+    "location": "教学楼 B203 机房",
+    "category": "工作坊",
+    "status": "past",
+    "cover": "",
+    "wxArticleUrl": "",
+    "description": "为期两天的计算机视觉实践营，内容涵盖图像分类、目标检测（YOLOv8）及图像分割实战，参营同学均完成了独立项目作品。",
+    "images": []
+  },
+  {
+    "id": 6,
+    "title": "业界嘉宾分享：AI 产品经理的一天",
+    "date": "2025-09-18",
+    "endDate": "2025-09-18",
+    "location": "行政楼学术报告厅",
+    "category": "讲座",
+    "status": "past",
+    "cover": "",
+    "wxArticleUrl": "",
+    "description": "邀请来自一线科技企业的 AI 产品经理，分享 AI 产品从 0 到 1 的完整历程，以及校园→职场的转型经验。",
+    "images": []
+  }
+]

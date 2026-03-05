@@ -1,0 +1,1 @@
+import{z as r,e as i,j as u}from"./index-CalPdX7B.js";const m="aia@2025",t="aia_admin_auth",f=r("admin",()=>{const e=i(sessionStorage.getItem(t)==="1"),s=u(()=>e.value);function o(a){return a===m?(e.value=!0,sessionStorage.setItem(t,"1"),!0):!1}function n(){e.value=!1,sessionStorage.removeItem(t)}return{isAuth:s,login:o,logout:n}});export{f as u};
