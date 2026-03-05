@@ -4,7 +4,7 @@
 
 > 社团门户网站，提供活动展示、组织架构、项目招募功能，并附带内容管理后台。
 
-线上地址：`https://<GitHub用户名>.github.io/aia-website/`
+线上地址：`https://fyzfyh.github.io/aia-website/`
 后台入口：线上地址 + `#/admin/login`
 
 ---
